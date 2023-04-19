@@ -1,0 +1,16 @@
+@use '../mixins/pseudo.scss' as *;
+.price{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    &__principal{
+        color:var(--color-green);
+    }
+    &__old{
+        color:var(--color-azul-claro);
+        font-size:15px;
+       padding-top:15px;
+       font-weight: normal;
+
+    }
+    }
