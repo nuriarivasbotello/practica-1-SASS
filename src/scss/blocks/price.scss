@@ -4,13 +4,20 @@
     flex-direction: row;
     gap:20px;
     &__principal{
-        color:var(--color-green);
+        color:var(--color-primary);
     }
     &__old{
-        color:var(--color-azul-claro);
+        color:var(--color-secondary);
         font-size:15px;
        padding-top:15px;
        font-weight: normal;
-
+       &::before { 
+        @include pseudo (1, 1) {
+         width: 60px;
+         height: 1px;
+         margin-top:10px;
+         background-color: rgb(49, 49, 49);
+        }
     }
     }
+}
