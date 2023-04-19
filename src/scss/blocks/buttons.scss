@@ -9,6 +9,9 @@
     background-color: var(--color-primary);
     border-radius:10px;
     margin-top:15px;
+    &:hover{
+        background-color:rgba(26, 64, 50, 1);
+    }
 
     &__text{
         color:white;
